@@ -1,0 +1,1 @@
+py -m PyInstaller --onefile --icon=icon.ico gui.spec
