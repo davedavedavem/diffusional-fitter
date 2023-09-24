@@ -7,13 +7,13 @@ This program analyses cyclic voltammetry (CV) data as a function of time and fit
 ![plot](example.png)
 *Example of output plot from Diffusional Fitter program.*
 
-More information about how the fitting is performed and assumptions the program makes are described in an upcoming paper; this will be linked once the work is published.
+More information about how the fitting is performed is described in an upcoming paper; this will be linked once the work is published.
 
 Exported data from CH Instruments, Nova, and PSTrace are currently supported. A template file is also available for users to input their own data manually.
 
 ## Basic usage
 
-1. Download 'Diffusional Fitter.exe', and optionally 'template.csv'.
+1. Download 'Diffusional Fitter.exe', and optionally 'template.csv' from the 'Sample data' folder.
 
 2. Open 'Diffusional Fitter.exe'. Note that the executable can take some time to start when initially launched, but once the interface appears the program should be responsive.
 
