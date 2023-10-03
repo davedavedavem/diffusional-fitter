@@ -47,7 +47,7 @@ Decimal Separator: Period (.)
 Diffusional fitting only works on the first scan. The program will automatically remove data from subsequent scans if these data are included in the export.
 
 ### PSTrace CSV export
-To export a supported data format, select 'Export data to CSV file...' under the 'Data' tab. PSTrace exports CV data without a scan rate or time series data, so the user will see an additional option pop up when running the program to input the experiment's scan rate.
+In PSTrace select 'Export data to CSV file...' under the 'Data' tab. This option in PSTrace will only export potential and current CV data, so the user will see an additional option pop up when running the program to input the experiment's scan rate. This input is used to calculate the time series data.
 
 ## Miscellaneous
 
