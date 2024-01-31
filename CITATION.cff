@@ -8,7 +8,7 @@ authors:
   given-names: "Conor F."
   orcid: "https://orcid.org/0000-0001-8250-3098"
 title: "diffusional-fitter"
-version: 1.0.0
+version: 1.0.1
 doi: 10.5281/zenodo.1234
-date-released: 2022-08-24
+date-released: 2024-01-31
 url: "https://github.com/davedavedavem/diffusional-fitter"

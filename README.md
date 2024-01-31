@@ -7,7 +7,7 @@ This program analyses cyclic voltammetry (CV) data as a function of time and fit
 ![plot](example.png)
 *Example of output plot from Diffusional Fitter program.*
 
-More information about how the fitting is performed is described in our paper "More Accurate Measurement of Return Peak Current in Cyclic Voltammetry Using Diffusional Baseline Fitting" - https://doi.org/10.1021/acs.analchem.3c04181
+More information about how the fitting is performed is described in our paper "More Accurate Measurement of Return Peak Current in Cyclic Voltammetry Using Diffusional Baseline Fitting" - https://doi.org/10.1021/acs.analchem.3c04181. If this program has been useful for your work we'd appreciate citation.
 
 Exported data from CH Instruments, Nova, and PSTrace are currently supported. A template file is also available for users to input their own data manually.
 
