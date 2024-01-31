@@ -118,8 +118,17 @@ def main():
     def about_button_clicked():
         alert = QMessageBox()
         alert.setWindowTitle("About")
+        alert.setWindowIcon(QIcon(application_path + "/icon.ico"))
+        alert.setTextFormat(1) # sets text format to rich
         alert.setText(
-            """Version: 1.0.0 revised on 05/09/2023\n\nDiffusional Fitter was created by David S. Macedo and Conor F. Hogan.\n\nSource code and additional documentation can be found at www.githhub.com/davedavedavem/difusional-fitter"""
+            "Version: 1.0.1 revised on 31/01/2024<br/>"+
+            "Diffusional Fitter was created by David S. Macedo and Conor F. Hogan.<br/><br/>"+
+            "Source code and additional documentation can be found at <a href='www.github.com/davedavedavem/diffusional-fitter'>www.github.com/davedavedavem/diffusional-fitter</a><br/><br/>"+
+            "More information about the fitting process can be found <a href='https://doi.org/10.1021/acs.analchem.3c04181'>here</a> in our paper:<br/>"+
+            "<b>More Accurate Measurement of Return Peak Current in Cyclic Voltammetry Using Diffusional Baseline Fitting</b><br/>"+
+            "David S. Macedo, Theo Rodopoulos, Mikko Vepsäläinen, Samridhi Bajaj, and Conor F. Hogan<br/>"+
+            "<i>Analytical Chemistry</i> <b>2024</b> <i>96</i> (4), 1530-1537<br/>"+
+            "DOI: 10.1021/acs.analchem.3c04181"
         )
         alert.exec_()
         return
