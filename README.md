@@ -26,7 +26,7 @@ Exported data from CH Instruments, Nova, and PSTrace are currently supported. A 
 ## CV data requirements
 
 - IUPAC format
-- One pair of of peaks (for example oxidation and subsequent reduction). Voltammograms with multiple oxidation and reduction peaks are not currently supported.
+- One pair of peaks (for example oxidation and subsequent reduction). Voltammograms with multiple oxidation and reduction peaks are not currently supported.
 - Data is from the first scan (no diffusion layer). A linear fit from data prior to the first peak is used for capacitance/resistance correction. For this reason using diffusional fitter on repeated scans will result in erroneous fitting.
 
 ## Supported data formats
