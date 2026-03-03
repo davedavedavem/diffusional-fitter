@@ -1,3 +1,11 @@
+# Diffusional Fitter is now deprecated
+
+This repository is no longer maintained and is preserved for reference only.
+
+An improved method for fitting diffusional baselines can be found in our newer program "Semi-derivative Fitter", found at www.github.com/davedavedavem/SD-fitter
+
+More detail on the fitting procedure for this newer work is described in our paper "Enhancing Analytical Performance in Cyclic Voltammetry: An Open-Source Tool for Signal Deconvolution" - https://doi.org/10.1021/acs.analchem.5c07228
+
 # diffusional-fitter
 
 ## Overview
